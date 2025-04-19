@@ -68,7 +68,7 @@ const sampleTracks: Track[] = [
     artist: 'Post Malone, Swae Lee',
     album: 'Spider-Man: Into the Spider-Verse',
     duration: 158,
-    cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Post_Malone_-_Sunflower.png/220px-Post_Malone_-_Sunflower.png',
+    cover: 'https://upload.wikimedia.org/wikipedia/en/1/1f/Dance_Monkey_by_Tones_and_I.jpg',
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
   },
   {
@@ -95,7 +95,7 @@ const sampleTracks: Track[] = [
     artist: 'Dua Lipa',
     album: 'Future Nostalgia',
     duration: 183,
-    cover: 'https://upload.wikimedia.org/wikipedia/en/3/30/Dua_Lipa_-_Don%27t_Start_Now.png',
+    cover: 'https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png',
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3'
   },
   {
@@ -104,7 +104,7 @@ const sampleTracks: Track[] = [
     artist: 'Harry Styles',
     album: 'Fine Line',
     duration: 174,
-    cover: 'https://upload.wikimedia.org/wikipedia/en/0/07/Harry_Styles_-_Watermelon_Sugar.png',
+    cover: 'https://upload.wikimedia.org/wikipedia/en/1/1f/Dance_Monkey_by_Tones_and_I.jpg',
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3'
   }
 ];

@@ -38,7 +38,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
             <SidebarContent className="px-2">
               <SidebarGroup>
                 <SidebarMenu>
-                  <SidebarMenuItem>
+                  {/* <SidebarMenuItem>
                     <SidebarMenuButton asChild>
                       <a href="/" className="flex items-center py-2 px-4 rounded-md hover:bg-playnow-card transition-all duration-300">
                         <Home className="mr-3" size={20} />
@@ -53,7 +53,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
                         <span>Search</span>
                       </a>
                     </SidebarMenuButton>
-                  </SidebarMenuItem>
+                  </SidebarMenuItem> */}
                 </SidebarMenu>
               </SidebarGroup>
               
@@ -129,7 +129,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
             <SidebarTrigger className="mr-4 lg:hidden">
               <Menu />
             </SidebarTrigger>
-            <h1 className="text-xl font-bold">PlayNow</h1>
+            {/* <h1 className="text-xl font-bold">PlayNow</h1> */}
           </header>
           
           <main className="flex-1 overflow-hidden">

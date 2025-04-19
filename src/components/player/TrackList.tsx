@@ -16,6 +16,7 @@ interface TrackListProps {
   showAddToPlaylist?: boolean;
   playlistId?: string;
   allowRemove?: boolean;
+  emptyState?: React.ReactNode;
 }
 
 const TrackList: React.FC<TrackListProps> = ({
@@ -23,7 +24,8 @@ const TrackList: React.FC<TrackListProps> = ({
   showCover = true,
   showAddToPlaylist = true,
   playlistId,
-  allowRemove = false
+  allowRemove = false,
+  emptyState
 }) => {
   const { 
     currentTrack, 
@@ -54,7 +56,9 @@ const TrackList: React.FC<TrackListProps> = ({
   };
   
   if (tracks.length === 0) {
-    return (
+    return emptyState ? (
+      <>{emptyState}</>
+    ) : (
       <div className="p-4 text-center text-playnow-text-secondary">
         No tracks in this playlist. Add some tracks to get started.
       </div>
