@@ -126,9 +126,11 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
         
         <div className="flex-1 overflow-hidden flex flex-col h-screen">
           <header className="h-16 flex items-center px-4 border-b border-playnow-divider bg-playnow-background z-20">
-            <SidebarTrigger className="mr-4 lg:hidden">
-              <Menu />
-            </SidebarTrigger>
+          {isMobile && (
+              <SidebarTrigger className="mr-4">
+                <Menu />
+              </SidebarTrigger>
+            )}
             {/* <h1 className="text-xl font-bold">PlayNow</h1> */}
           </header>
           
